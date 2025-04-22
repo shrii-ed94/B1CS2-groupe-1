@@ -1,7 +1,7 @@
 <?php include 'inc/header.php' ?>
 
   <main class="menu_gauche">
-    <nav class="">
+    <nav class="proposition">
       <ul>
         <li><a href="pages/shop.php">Voir les sacs</a></li>
         <li><a href="admin/login.php">Espace Admin</a></li>
@@ -14,7 +14,7 @@
       <a href="pages/liste_sacs.php" class="btn">Voir les sacs</a>
     </div>
 
-    <aside class="">
+    <aside class="extra">
       <p>Vous êtes admin ? Connectez-vous pour modifier la boutique.</p>
     </aside>
   </main>
