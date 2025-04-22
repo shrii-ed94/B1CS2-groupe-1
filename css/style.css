@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+
+header {
+  background-color: #08027c;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 4px solid #d2b48c;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+  background-color: #08027c;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #000000;
+  border-radius: 40%;
+  background-color: #ffffff;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#loupe{
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.logo img{
+  width: 90px;
+}
+
+article img{
+  width: 20%;
+  justify-content: space-evenly;
+}
+.menu_gauche{
+  flex: 1;
+  display: flex;
+  color: black;
+}
+nav a{
+  color: rgb(0, 0, 0);
+}
+
+.proposition {
+  background-color: #e4e4e4;
+  color: white;
+  width: 20%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.content {
+  background-color: #ffffff;
+  width: 60%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.extra {
+  background-color: #e4e4e4;
+  width: 20%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+}
+
+#burger
+{
+  width: 2em;
+  background-color: (255, 255, 255, 0.078);
+}
+footer {
+  background-color: #08027c;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  border-top: 4px solid #d2b48c;
+}
+
+.amazon {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  background: blue;
+  margin: 5% 20%;
+}
+
+.grande-image {
+  width: 100%;
+  background: rgb(0, 0, 0);
+}
+
+.grande-image img {
+  width: 100%;
+}
+
+.galerie {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(0, 0, 0);
+}
+
+.galerie img {
+  width: 20%;
+}
