@@ -9,6 +9,7 @@
     <div class="galerie">
     <img src="../images/juliet/1.webp" alt="">
     <img src="../images/juliet/2.webp" alt="">
+    <img src="../images/juliet/3.webp" alt="">
 </div>
 
 </div>
