@@ -11,5 +11,6 @@
 </div>
 
 </div>
-<script type="text/javascript" src="../js/amazon.j
+<script type="text/javascript" src="../js/amazon.js">
+</script>
 <?php include '../inc/footer.php' ?>
