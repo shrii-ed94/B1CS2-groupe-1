@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .main-layout {
+      flex-direction: column;
+    }
+  
+    .sidebar,
+    .content,
+    .extra {
+      width: 100%;
+    }
+  
+    .sidebar {
+      order: 1;
+    }
+  
+    .content {
+      order: 2;
+    }
+  
+    .extra {
+      order: 3;
+    }
+  }
